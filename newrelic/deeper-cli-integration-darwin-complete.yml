@@ -1,0 +1,32 @@
+---
+integrations:
+  - name: deeper-cli
+    interval: 30s # how often the integration will collect data
+    env:
+      DEVICE_NAME: My Deeper Mini 01 # optional name to identify your deeper device
+      DEVICE_TYPE: mini # optionally define your device type, eg. mini, nano, genesis
+      NEWRELIC_OUTPUT: true # required to automatically format the output to new relic compatible
+      NEWRELIC_ACCOUNT_ID: 1234 # replace with your account id
+      NEWRELIC_INSERT_API_KEY: NRII-ABCDEF # replace with your insert key
+  - name: deeper-cli # generate peer data
+    interval: 1m
+    env:
+      DEVICE_NAME: My Deeper Mini 01 # optional name to identify your deeper device
+      DEVICE_TYPE: mini # optionally define your device type, eg. mini, nano, genesis
+      NEWRELIC_OUTPUT: true # required to automatically format the output to new relic compatible
+      GET_PEER_LIST: true # generate peer list data
+      NEWRELIC_ACCOUNT_ID: 1234 # replace with your account id
+      NEWRELIC_INSERT_API_KEY: NRII-ABCDEF # replace with your insert key
+      NEWRELIC_NERDGRAPH_KEY: NRAK-ABCDEF # replace with your user api key https://one.newrelic.com/launcher/api-keys-ui.launcher
+  - name: deeper-cli # generate logs
+    interval: 1m
+    env:
+      DEVICE_NAME: My Deeper Mini 01
+      DEVICE_TYPE: mini # optionally define your device type, eg. mini, nano, genesis
+      GET_SHARING_LOGS: 1 # get 1 day worth of sharing logs
+      DECORATE_LOG_META: true # add additional log metadata to improve querying
+      RAW: true # raw log lines
+      NEW_ONLY: true # only output new logs
+      OUTPUT_FILE: "/var/db/newrelic-infra/newrelic-integrations/bin/.deeper-logs/sharing.log" # location of where the log file will be written too
+      NEWRELIC_ACCOUNT_ID: 1234 # replace with your account id
+      NEWRELIC_NERDGRAPH_KEY: NRAK-ABCDEF # replace with your user api key https://one.newrelic.com/launcher/api-keys-ui.launcher
