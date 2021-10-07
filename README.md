@@ -80,11 +80,13 @@ If you choose to also backup your metrics and logs to New Relic it is worth ackn
 - If you care about your investment in the Deeper Network and want the best monitoring possible for your device follow the [New Relic Setup](#new-relic-setup) below which will cover the entire process.
 
 ## New Relic Setup
-You will require a Windows or Linux device to setup the Deeper CLI to remotely monitor your Deeper Connect device.
+- You will require a Windows or Linux (mac available but untested) device to setup the Deeper CLI to remotely monitor your Deeper Connect device. This device needs to remain on to collect data from your Deeper Connect device to ship to New Relic.
 
-ARM devices such as Raspberry Pi's are also supported with the Linux ARM package.
+- You will be able to view all your data and dashboards from anywhere in the world within New Relic once setup.
 
-A Mac (darwin) distribution is available, but untested with the New Relic setup although will more then likely work.
+- ARM devices such as Raspberry Pi's are also supported with the Linux ARM package.
+
+- A Mac (darwin) distribution is available, but untested with the New Relic setup although will more then likely work.
 
  1. [Sign up to New Relic](./newrelic/1.signup.md)
  2. [Infrastructure agent install](./newrelic/2.infra-install.md)
