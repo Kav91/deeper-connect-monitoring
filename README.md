@@ -92,8 +92,16 @@ If you choose to also backup your metrics and logs to New Relic it is worth ackn
  2. [Infrastructure agent install](./newrelic/2.infra-install.md)
  3. [Create a User API Key for your account](./newrelic/3.create-user-key.md)
  4. [Create a Insert API Key for your account](./newrelic/4.create-insert-key.md)
- 5. [Deeper CLI setup](./newrelic/5.deeper-cli-setup.md)
- 6. [Capture Logs & Connection Data](./newrelic/6.logs-connection-data.md)
+
+With the above information collected, you may use the automated setup (recommended).
+|Automated (recommended) | Manual|
+|------------------------|-------|
+| 5. [Deeper CLI automated setup](./newrelic/5a.automated-setup.md#Automated-Deeper-CLI-Installation)  | 5. [Deeper CLI manual setup](./newrelic/5b.deeper-cli-setup.md) |
+| 6. No step 6 :)                                             |   6. [Capture Logs & Connection Data](./newrelic/6.logs-connection-data.md) | 
+
+
+
+ ---
  7. [View Logs](./newrelic/7.view-logs.md)
  8. [Setting up alerts](./newrelic/8.alerts.md)
  9. [Viewing all your data](./newrelic/9.viewing-data.md)
@@ -115,12 +123,12 @@ If you choose to also backup your metrics and logs to New Relic it is worth ackn
 
 
 ## Deeper CLI Packages
-Latest version: 0.1.3
+Latest version: 0.2.0
 
 
-- [deeper-cli-windows-x86_64-0.1.3.zip](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-windows-x86_64-0.1.3.zip)
-- [deeper-cli-linux-x86_64-0.1.3.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-x86_64-0.1.3.tar.gz)
-- [deeper-cli-linux-armv7-0.1.3.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-armv7-0.1.3.tar.gz
+- [deeper-cli-windows-x86_64-0.2.0.zip](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-windows-x86_64-0.2.0.zip)
+- [deeper-cli-linux-x86_64-0.2.0.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-x86_64-0.2.0.tar.gz)
+- [deeper-cli-linux-armv7-0.2.0.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-armv7-0.2.0.tar.gz
 )
-- [deeper-cli-apple-darwin-x86_64-0.1.3.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-apple-darwin-x86_64-0.1.3.tar.gz
+- [deeper-cli-apple-darwin-x86_64-0.2.0.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-apple-darwin-x86_64-0.2.0.tar.gz
 )
