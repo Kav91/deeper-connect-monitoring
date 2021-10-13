@@ -108,6 +108,10 @@ With the above information collected, you may use the automated setup (recommend
 
  If you've completed all the above steps, congratulations you're now what we call a DataNerd :)
 
+ ### Upgrading the Deeper CLI
+ - The simplest method to upgrade the CLI is to replace the existing binary/executable with one from a newer package
+    - This will always work unless there is a breaking change for some reason
+
  ### Advanced topics
  
  - What the best way to monitor multiple connect devices from one host?
