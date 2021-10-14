@@ -90,7 +90,7 @@ If you choose to also backup your metrics and logs to New Relic it is worth ackn
 
  1. [Sign up to New Relic](./newrelic/1.signup.md)
  2. [Infrastructure agent install](./newrelic/2.infra-install.md)
- 3. [Create a User API Key for your account](./newrelic/3.create-user-key.md)
+ 3. [Create a User API Key for your account (NerdGraph Key)](./newrelic/3.create-user-key.md)
  4. [Create a Insert API Key for your account](./newrelic/4.create-insert-key.md)
 
 With the above information collected, you may use the automated setup (recommended).
