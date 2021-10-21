@@ -127,12 +127,12 @@ With the above information collected, you may use the automated setup (recommend
 
 
 ## Deeper CLI Packages
-Latest version: 0.2.1
+Latest version: 0.2.2
 
 
-- [deeper-cli-windows-x86_64-0.2.1.zip](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-windows-x86_64-0.2.1.zip)
-- [deeper-cli-linux-x86_64-0.2.1.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-x86_64-0.2.1.tar.gz)
-- [deeper-cli-linux-armv7-0.2.1.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-armv7-0.2.1.tar.gz
+- [deeper-cli-windows-x86_64-0.2.2.zip](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-windows-x86_64-0.2.2.zip)
+- [deeper-cli-linux-x86_64-0.2.2.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-x86_64-0.2.2.tar.gz)
+- [deeper-cli-linux-armv7-0.2.2.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-linux-armv7-0.2.2.tar.gz
 )
-- [deeper-cli-apple-darwin-x86_64-0.2.1.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-apple-darwin-x86_64-0.2.1.tar.gz
+- [deeper-cli-apple-darwin-x86_64-0.2.2.tar.gz](https://deeper-network.s3.amazonaws.com/deeper-cli/deeper-cli-apple-darwin-x86_64-0.2.2.tar.gz
 )
